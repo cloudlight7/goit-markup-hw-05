@@ -378,20 +378,15 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  fill: var(--secondary-text-color);
-  transition: background-color 250ms var(--timing-func), fill 250ms var(--timing-func);
+  fill: var(--social-icon-color);
+  transition: background-color 250ms var(--timing-func), fill 250ms var(--timing-func);;
 }
 .team-link-social:hover,
 .team-link-social:focus {
   background-color: var(--accent-color);
-}
-.team-link-social:hover .social-icon,
-.team-link -social:focus .social-icon {
   fill: var(--primary-white-color);
 }
-.social-icon {
-  fill: var(--social-icon-color);
-}
+
 /* Клиенты */
 .clients {
   text-align: center;
